@@ -1,3 +1,32 @@
 nav {
-    background-color: #506f65;
+    background-color: #b24848;
 }
+
+nav .navbar-nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+    nav .navbar-nav li a:hover{
+        color: #000000;
+    }
+
+    nav .nav-brand-div #logo svg:hover .st0 {
+        stroke: #000000;
+    }
+    nav .nav-brand-div #logo svg:hover .st1 {
+        fill: #000000;
+    }
+
+header {
+    height: 80vh;
+}
+
+header .hero-img-bg {
+    background-image: url("../img/front-page/jproede-panton-stole-ophaengt-i-museumsgangen-paa-trapholt-som-en-introduktion-til-udstillingen-foto-lars-svanholm.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    position: absolute;
+} 
