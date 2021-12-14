@@ -1,0 +1,267 @@
+section {
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+}
+section .container-fluid{
+    width: 85vw;
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 450;
+    color: #707070;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+section .container-fluid .image-about,
+section .container-fluid .image-visit,
+section .container-fluid .image-shop,
+section .container-fluid .image-cafe,
+section .container-fluid .image-contact {
+    padding-top: 80px;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+    section .container-fluid .image-about img,
+    section .container-fluid .image-visit img,
+    section .container-fluid .image-shop img,
+    section .container-fluid .image-cafe img,
+    section .container-fluid .image-contact img {
+        width: 100%;
+    }
+
+
+section .container-fluid .info-item-about,
+section .container-fluid .info-item-visit,
+section .container-fluid .info-item-cafe {
+    padding-top: 80px;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+}
+    section .container-fluid .info-item-about .info-text-about,
+    section .container-fluid .info-item-visit .info-text-visit,
+    section .container-fluid .info-item-cafe .info-text-cafe {  
+        width: 80%;
+    }
+
+.btn {
+    margin-top: 20px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 0px;
+    background-color: #f2f3f7;
+    border-radius: 20px;
+    padding: 5px 30px;
+    box-shadow: 12px 12px 15px #dde4ef, -12px -12px 15px #ffffff;
+}
+
+
+
+
+
+
+
+
+#latest-exhibitions .container-fluid .info-item-exhibitions,
+#design-shop .container-fluid .info-item-shop,
+#contact .container-fluid .info-item-contact {
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+#latest-exhibitions .container-fluid .exhibitions {
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+#latest-exhibitions .container-fluid .exhibitions .verner{
+    flex-direction: row;
+    display: flex;
+    width: max-content;
+    height: 40vh;
+
+}
+#latest-exhibitions .container-fluid .exhibitions .verner .verner-panton img{
+    height: 35vh;
+}
+
+#latest-exhibitions .container-fluid .exhibitions .trees{
+    flex-direction: row;
+    display: flex;
+    width: max-content;
+    height: 40vh;
+}
+#latest-exhibitions .container-fluid .exhibitions .trees .close-to-the-trees img{
+    height: 35vh;
+}
+
+#latest-exhibitions .container-fluid .exhibitions .btn-exhibitions {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 0px;
+    background-color: #f2f3f7;
+    border-radius: 50%;
+    box-shadow: 12px 12px 15px #dde4ef, -12px -12px 15px #ffffff;
+}
+
+#latest-exhibitions .container-fluid .exhibitions .verner .btn-exhibitions {
+    padding: 40px;
+    margin-left: 4vw;
+}
+#latest-exhibitions .container-fluid .exhibitions .trees .btn-exhibitions{
+    padding: 45px 30px;
+    margin-right: 4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+    body, html{
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    section .container-fluid{
+        width: 95vw;
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 450;
+    }
+    h1{
+        font-size: 2.2rem;
+    }
+
+    #read-about .container-fluid .row,
+    #visit-us .container-fluid .row,
+    #cafe .container-fluid .row {
+        display: flex;
+        flex-direction: column;
+    }
+        #read-about .container-fluid .row .image,
+        #visit-us .container-fluid .row .image,
+        #cafe .container-fluid .row .image{
+            order: 2;
+        }
+    
+    #read-about .container-fluid .image-about,
+    #visit-us .container-fluid .image-visit,
+    #cafe .container-fluid .image-cafe,
+    #contact .container-fluid .image-contact {
+        padding-top: 0px;
+        height: 40vh;
+    }
+
+    #read-about .container-fluid .info-item-about {
+        margin-top: 25%;
+        padding-top: 0px;
+        height: 40vh;
+        margin-left: 0vw;
+    }
+
+    #visit-us .container-fluid .info-item-visit,
+    #cafe .container-fluid .info-item-cafe,
+    #contact .container-fluid .info-item-contact {
+        padding-top: 0px;
+        height: 40vh;
+        margin-left: 0vw;
+    }
+    
+    .btn {
+        font-size: 1.2rem;
+    }
+
+    section .container-fluid .image-shop {
+        height: 40vh;
+        padding: 0px;
+    }
+
+
+    #latest-exhibitions .container-fluid .info-item-exhibitions,
+    #design-shop .container-fluid .info-item-shop {
+        padding-top: 0px;
+        width: 100%;
+        height: 35vh;
+    }
+    #latest-exhibitions .container-fluid .exhibitions {
+        padding-top: 0px;
+        width: 100%;
+        height: 55vh;
+    }
+    #latest-exhibitions .container-fluid .exhibitions .verner{
+        width: max-content;
+        height: 20vh;
+    }
+    #latest-exhibitions .container-fluid .exhibitions .verner .verner-panton img{
+        height: 15vh;
+    }
+    #latest-exhibitions .container-fluid .exhibitions .verner .btn-exhibitions {
+        padding: 10px;
+        margin-left: 5vw;
+    }
+    #latest-exhibitions .container-fluid .exhibitions .trees{
+        height: 20vh;
+    }
+    #latest-exhibitions .container-fluid .exhibitions .trees .close-to-the-trees img{
+        height: 15vh;
+    }
+    #latest-exhibitions .container-fluid .exhibitions .trees .btn-exhibitions{
+        padding: 20px 10px;
+        margin-right: 4vw;
+    }
+    #latest-exhibitions .container-fluid .exhibitions .btn-exhibitions {
+        font-size: 0.8rem;
+    }
+
+
+    footer {
+        height: 40vh;
+    }
+    footer .container-fluid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 30vh;
+        justify-content: center;
+    }
+    footer .container-fluid .social {
+        order: 3;
+        justify-content: center;
+    }
+
+}
