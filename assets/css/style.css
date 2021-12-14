@@ -95,8 +95,9 @@ header .hero-img-bg {
 
 
 /* START OF FOOTER */
-footer {
+#footer {
     height: 25vh;
+    width: 100vw;
     background-color: #506f65ee;
     color: #ffffff;
     display: flex;
@@ -105,33 +106,41 @@ footer {
     align-items: center;
 }
 
-footer .footer-contact{
+#footer .footer-contact{
     width: 100vw;
-}
-
-footer p{
-    color: #ffffff;
-}
-
-footer .footer-contact ul{
-    width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-footer a{
+#footer p{
+    color: #ffffff;
+}
+
+#footer .social, #footer .contact, #footer .address{
+    width: 100%;
+}
+#footer .footer-contact .social ul li{
+    padding: 0 2rem;
+}
+#footer .footer-contact .social .list-inline{
+    justify-content: center;
+    display: flex;
+    margin-left: -13vw;
+}
+
+#footer a{
     text-decoration: none;
     color: #ffffff;
 }
   
-  footer a i:hover {
+  #footer a i:hover {
     color: #f79957;
   }
 
-  footer .social-item i {
+  #footer .social-item i {
     font-size: 1.9rem;
-    padding: 0 2rem;
+    padding: 0 0rem;
   }
 /*     footer .newsletter {
         margin-top: 5vh;
@@ -164,8 +173,10 @@ footer a{
     footer .footer-contact .contact{
         text-align: left
     }
-    footer .footer-contact .address{
+    #footer .footer-contact .address{
         text-align: right;
+        margin-left: -17vw;
+
     }
 
 /* END OF FOOTER */
@@ -192,4 +203,39 @@ footer a{
         width: 100%;
         height: 100vh;
     } 
+
+
+
+    #footer{
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #footer .footer-contact .contact{
+        order: 1;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 90vw;
+    }
+    #footer .footer-contact .flex-col .social{
+        display: none;
+    }
+    #footer .footer-contact .address{
+        order: 2;
+    }
+    #footer .social-item i {
+        font-size: 1.5rem;
+    }
+    #footer .footer-contact .social ul li{
+        padding: 0 1.5rem;
+    }
+    #footer .footer-contact .address{
+        justify-content: center;
+        display: flex;
+        margin: 0;
+        text-align: center;
+    }
 }
