@@ -18,15 +18,197 @@ nav .navbar-nav li a{
     }
 
 header {
-    height: 80vh;
+    height: 100vh;
 }
 
 header .hero-img-bg {
     background-image: url("../img/front-page/jproede-panton-stole-ophaengt-i-museumsgangen-paa-trapholt-som-en-introduktion-til-udstillingen-foto-lars-svanholm.jpg");
-    height: 80vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     -webkit-background-size: cover;
     position: absolute;
 } 
+section .container-fluid{
+    width: 85vw;
+}
+
+#contact{
+    max-width: 100vw;
+    height: 170vh;
+    min-height: 100vh;
+    max-height: fit-content;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10%;
+}
+
+section .container-fluid {
+    padding-top: 80px;
+}
+
+#contact .contact-us-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#contact .contact-box {
+    width: 450px;
+    height: 120px;
+    background-color: #ffffff;
+    display: flex;
+}
+#contact .contact-box .foto{
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    object-fit: cover;
+    display: flex;
+}
+
+#contact .contact-box .contact-person {
+    margin-left: 5px;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-box .contact-person h3{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#contact .contact-box .contact-person h5{
+    font-size: 1rem;
+}
+#contact .contact-box .contact-person .contact-person-item {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+
+
+/* START OF THE FORM */
+.btn,
+.btn-submit,
+.btn-success {
+  background-color: #b24848;
+  border-color: transparent;
+}
+.btn:hover,
+.btn-submit:hover,
+.btn-success:hover {
+  background-color: #506f65;
+  color: #ffffff;
+}
+.contact-form {
+  margin-top: 2rem;
+}
+.contact-form button {
+  width: 100%;
+}
+
+.contact-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  width: 90%;
+}
+.contact-form .fa, .contact-form .fas{
+  color: #000000;
+}
+.contact-form ::placeholder{
+  color: #707070;
+  font-weight: 500;
+}
+button .fa{
+  padding-right: 10px;
+}
+.btn{
+  border-radius: 15px!important;
+  font-weight: 500;
+  color: #ffffff;
+}
+textarea, input{
+  border-top-right-radius: 15px!important;
+  border-bottom-right-radius: 15px!important;
+}
+.input-group-text{
+  border-top-left-radius: 15px!important;
+  border-bottom-left-radius: 15px!important;
+}
+.input-group-text i{
+  font-size: larger;
+}
+.btn i{
+  font-size: larger;
+}
+textarea{
+  border-left: 0px solid #ffffff!important;
+}
+.message .input-group-text{
+  border-right: #ffffff;
+  display: flex;
+  align-items: flex-start;
+}
+.message .input-group-text i{
+  padding-top: 6px;
+}
+.btn .fa{
+  color: #ffffff;
+}
+
+
+
+
+
+#footer{
+    background-color: #b24848;
+}
+
+
+@media only screen and (max-width: 990px) {
+    section .container-fluid{
+        width: 100vw;
+    }
+
+    #contact{
+        max-width: 100vw;
+        height: 250h;
+        min-height: 100vh;
+    }   
+
+    h1{
+        text-transform: uppercase;
+        font-size: 3.6rem;
+        font-weight: bold;
+
+    }
+
+    #contact .contact-box {
+        width: 320px;
+        height: 100px;
+        background-color: #ffffff;
+        display: flex;
+    }
+    #contact .contact-box .foto{
+        width: 100px;
+        height: 100px;
+        background-color: #000000;
+        object-fit: cover;
+        display: flex;
+    }
+
+    #contact .contact.person h1{
+         font-size: small
+    }
+}
