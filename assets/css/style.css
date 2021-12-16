@@ -212,6 +212,8 @@ header .hero-img-bg {
         flex-direction: row;
     }
 
+    
+
     #footer .footer-contact .contact{
         order: 1;
         justify-content: center;
