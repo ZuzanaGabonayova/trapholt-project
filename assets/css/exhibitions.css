@@ -1,3 +1,72 @@
+body{
+    background-color: #f2f3f7;
+}
+
 nav {
     background-color: #506f65;
 }
+
+nav .navbar-nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+    nav .navbar-nav li a:hover{
+        color: #000000;
+    }
+
+    nav .nav-brand-div #logo svg:hover .st0 {
+        stroke: #000000;
+    }
+    nav .nav-brand-div #logo svg:hover .st1 {
+        fill: #000000;
+    }
+
+header {
+    height: 100vh;
+}
+
+header .hero-img-bg {
+    background-image: url("../img/exhibition.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    position: absolute;
+} 
+section .container-fluid{
+    width: 85vw;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #707070;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+
+#current-exhibitions, #upcoming-exhibitions, #previous-exhibitions {
+    width: 100vw;
+    height: 100vh;
+}
+
+#current-exhibitions .container-fluid,
+#upcoming-exhibitions .container-fluid,
+#previous-exhibitions .container-fluid {
+    margin-top: 12vh;
+    width: 70vw;
+}
+
+#current-exhibitions .carousel-caption,
+#upcoming-exhibitions .carousel-caption,
+#previous-exhibitions .carousel-caption {
+    background-color: #000000;
+}
+
