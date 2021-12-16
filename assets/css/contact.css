@@ -209,6 +209,6 @@ textarea{
     }
 
     #contact .contact.person h1{
-         font-size: small
+         font-size: smaller;
     }
 }
