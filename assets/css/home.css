@@ -141,6 +141,24 @@ section .container-fluid .info-item-cafe {
     margin-right: 4vw;
 }
 
+#footer {
+    background-color: #f2f3f7;
+    color: #000000;
+}
+
+section .container-fluid{
+    width: 85vw;
+}
+
+#footer p{
+    color: #000000;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #000000;
+}
+
 
 
 
