@@ -1,3 +1,11 @@
+body{
+    background-color: #f2f3f7;
+}
+
+nav {
+    background-color: #dce4f4!important;
+}
+
 p{
     font-size: 1.5rem;
     font-weight: 400;
@@ -11,9 +19,6 @@ h1{
     color: #000000;
 }
 
-nav {
-    background-color: #506f65;
-}
 
 #visit-bg {
     height: 100%;
@@ -185,4 +190,162 @@ td {
 
 #visit-bolder {
     font-weight: 450;
+}
+
+
+#footer {
+    background-color: #dce4f4;
+    color: #000000;
+}
+
+section .container-fluid{
+    width: 85vw;
+}
+
+#footer p{
+    color: #000000;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+@media only screen and (max-width: 990px) {
+    body, html{
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+
+    header{
+        height: 80vh;
+    }
+
+    #visit-bg {
+        height: 80vh;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 2.7rem;
+        margin-top: 3vh;
+    }
+
+    p{
+        font-size: 1rem;
+        font-weight: 450;
+    }
+
+    .visit-container-1 {
+        height: fit-content;
+        width: 100vw;
+        margin: 0;
+        margin-top: 3vh;
+    }
+    .opening-hours-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table {
+        border: none;
+        font-size: 1rem;
+        margin-right: 0px;
+        width: 100%;
+    }
+    
+    .table-right-padding-1 {
+        padding-right: 0;
+    }
+    
+    .table-left-padding-1 {
+        padding-left: 0;
+    }
+
+
+    .opening-hours-container-text {
+        margin-left: 0px;
+        margin-top: 5vh;
+        justify-content: center;
+    }
+    
+    #opening-hours-bolder {
+        font-weight: 450;
+    }
+    
+    #opening-hours-bolder-line {
+        font-weight: 450;
+        border-top: 2.5px solid #707070;
+    }
+
+
+    .visit-container-2 {
+        height: fit-content;
+        width: 100vw;
+        margin: 0;
+        margin-top: 3vh;
+    }
+
+    .visit-container-3 {
+        height: fit-content;
+        width: 100vw;
+        margin: 0;
+        margin-top: 3vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .find-your-way-container {
+        width: 80vw;
+        padding: 0 ;
+
+    }
+    
+    .text-divider {
+        margin: 25px 0;
+        text-align: left;
+    }
+    
+    #find-your-way-map {
+        display: flex;
+        justify-content: center;
+        width: 90%!important;
+    }
+    #find-your-way-map iframe{
+        width: 100%;
+        height: 300px;
+    }
+
+    .visit-container-4 {
+        height: fit-content;
+        width: 100vw;
+        margin: 0;
+        margin-top: 3vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .visit-parking-container {
+        width: 80vw;
+        height: 100%;
+        padding: 0;
+    }
+
+    .visit-accessibility-container {
+        width: 80vw;
+        height: 100%;
+        padding: 0;
+    }
+
+    #footer .container-fluid{
+        margin-right: 15vw;
+    }
 }
