@@ -1,3 +1,17 @@
+nav .nav-brand-div #logo svg:hover .st0 {
+    stroke: #506f65;
+}
+nav .nav-brand-div #logo svg:hover .st1 {
+    fill: #506f65;
+}
+
+nav .navbar-nav li a:hover{
+    color: #506f65;
+}
+    nav .navbar-nav li a.active:hover{
+        color: #506f65;
+    }
+
 section {
     max-width: 100vw;
     height: 100vh;
@@ -17,6 +31,72 @@ h1{
     font-weight: bold;
     color: #000000;
 }
+
+
+#read-about{
+    background-color: #ffecb7;
+}
+#read-about .btn{
+    background-color: #ffecb7;
+    box-shadow: 12px 12px 20px #e2ca86, -12px -12px 20px #ffffff65;
+}
+
+#latest-exhibitions{
+    background-color: #506f65;
+}
+#latest-exhibitions .btn{
+    background-color: #506f65;
+    box-shadow: 12px 12px 20px #000000, -12px -12px 20px #ffffff53;
+    color: #ffffff;
+}
+#latest-exhibitions h1,
+#latest-exhibitions p{
+    color: #ffffff;
+}
+
+#visit-us{
+    background-color: #dce4f4;
+}
+#visit-us .btn{
+    background-color: #dce4f4;
+    box-shadow: 12px 12px 20px #a6b9d5, -12px -12px 20px #ffffff;
+}
+
+#design-shop{
+    background-color: #292929;
+}
+#design-shop .btn{
+    background-color: #292929;
+    box-shadow: 12px 12px 20px #000000, -5px -5px 20px #ffffff53;
+    color: #ffffff;
+}
+#design-shop h1,
+#design-shop p{
+    color: #ffffff;
+}
+
+#cafe{
+    background-color: #e3f0d0;
+}
+#cafe .btn{
+    background-color: #e3f0d0;
+    box-shadow: 12px 12px 20px #c6d6ae, -5px -5px 20px #ffffff;
+}
+
+#contact{
+    background-color: #b24848;
+}
+#contact .btn{
+    background-color: #b24848;
+    box-shadow: 12px 12px 20px #772525, -5px -5px 20px #ffffff42;
+    color: #ffffff;
+}
+#contact h1,
+#contact p{
+    color: #ffffff;
+}
+
+
 
 
 section .container-fluid .image-about,
@@ -42,7 +122,8 @@ section .container-fluid .image-contact {
 
 section .container-fluid .info-item-about,
 section .container-fluid .info-item-visit,
-section .container-fluid .info-item-cafe {
+section .container-fluid .info-item-cafe,
+section .container-fluid .info-item-exhibitions {
     padding-top: 80px;
     width: 100%;
     height: 90vh;
@@ -90,56 +171,6 @@ section .container-fluid .info-item-cafe {
 }
 
 
-#latest-exhibitions .container-fluid .exhibitions {
-    padding-top: 80px;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1vh;
-}
-
-#latest-exhibitions .container-fluid .exhibitions .verner{
-    flex-direction: row;
-    display: flex;
-    width: max-content;
-    height: 40vh;
-
-}
-#latest-exhibitions .container-fluid .exhibitions .verner .verner-panton img{
-    height: 35vh;
-}
-
-#latest-exhibitions .container-fluid .exhibitions .trees{
-    flex-direction: row;
-    display: flex;
-    width: max-content;
-    height: 40vh;
-}
-#latest-exhibitions .container-fluid .exhibitions .trees .close-to-the-trees img{
-    height: 35vh;
-}
-
-#latest-exhibitions .container-fluid .exhibitions .btn-exhibitions {
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    font-weight: bold;
-    border: 0px;
-    background-color: #f2f3f7;
-    border-radius: 50%;
-    box-shadow: 12px 12px 15px #dde4ef, -12px -12px 15px #ffffff;
-}
-
-#latest-exhibitions .container-fluid .exhibitions .verner .btn-exhibitions {
-    padding: 40px;
-    margin-left: 4vw;
-}
-#latest-exhibitions .container-fluid .exhibitions .trees .btn-exhibitions{
-    padding: 45px 30px;
-    margin-right: 4vw;
-}
 
 #footer {
     background-color: #f2f3f7;
@@ -209,15 +240,16 @@ section .container-fluid{
         margin-top: 25%;
         padding-top: 0px;
         height: 40vh;
-        margin-left: 0vw;
     }
 
     #visit-us .container-fluid .info-item-visit,
     #cafe .container-fluid .info-item-cafe,
-    #contact .container-fluid .info-item-contact {
+    #contact .container-fluid .info-item-contact,
+    #design-shop .container-fluid .info-item-shop,
+    #latest-exhibitions .container-fluid .info-item-exhibitions {
         padding-top: 0px;
         height: 40vh;
-        margin-left: 0vw;
+        margin-top: 25%;
     }
     
     .btn {
@@ -236,35 +268,7 @@ section .container-fluid{
         width: 100%;
         height: 35vh;
     }
-    #latest-exhibitions .container-fluid .exhibitions {
-        padding-top: 0px;
-        width: 100%;
-        height: 55vh;
-    }
-    #latest-exhibitions .container-fluid .exhibitions .verner{
-        width: max-content;
-        height: 20vh;
-    }
-    #latest-exhibitions .container-fluid .exhibitions .verner .verner-panton img{
-        height: 15vh;
-    }
-    #latest-exhibitions .container-fluid .exhibitions .verner .btn-exhibitions {
-        padding: 10px;
-        margin-left: 5vw;
-    }
-    #latest-exhibitions .container-fluid .exhibitions .trees{
-        height: 20vh;
-    }
-    #latest-exhibitions .container-fluid .exhibitions .trees .close-to-the-trees img{
-        height: 15vh;
-    }
-    #latest-exhibitions .container-fluid .exhibitions .trees .btn-exhibitions{
-        padding: 20px 10px;
-        margin-right: 4vw;
-    }
-    #latest-exhibitions .container-fluid .exhibitions .btn-exhibitions {
-        font-size: 0.8rem;
-    }
+    
 
 
     footer {
@@ -281,5 +285,12 @@ section .container-fluid{
         order: 3;
         justify-content: center;
     }
+
+    #footer .container-fluid{
+        margin-right: 5vw;
+    }
+
+
+
 
 }

@@ -98,7 +98,6 @@ header .hero-img-bg {
 #footer {
     height: 25vh;
     width: 100vw;
-    background-color: #506f65ee;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -189,7 +188,6 @@ header .hero-img-bg {
     nav {
         height: auto;
         
-        background-color: #506f65!important;
     }
         nav .nav-brand-div {
             margin-left: 0%;
