@@ -1,3 +1,12 @@
+body{
+    background-color: #f2f3f7;
+}
+
+nav {
+    background-color: #DCE4F4!important;
+}
+
+
 p{
     font-size: 1.5rem;
     font-weight: 400;
@@ -186,3 +195,27 @@ td {
 #visit-bolder {
     font-weight: 450;
 }
+
+
+
+/* START OF FOOTER */
+#footer {
+    background-color: #DCE4F4;
+    color: #000000;
+}
+
+section .container-fluid{
+    width: 85vw;
+}
+
+#footer p{
+    color: #000000;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* END OF FOOTER */
