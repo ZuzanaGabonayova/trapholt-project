@@ -1,353 +1,417 @@
-body{
-    background-color: #f2f3f7;
+body {
+  background-color: #f2f3f7;
 }
 
 nav {
-    background-color: #dce4f4!important;
+  background-color: #dce4f4 !important;
 }
 
-p{
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #707070;
-    margin-bottom: 0.25rem;
-}
-h1{
-    text-transform: uppercase;
-    font-size: 3.6rem;
-    font-weight: bold;
-    color: #000000;
+p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #707070;
+  margin-bottom: 0.25rem;
 }
 
+h1 {
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: #000000;
+}
 
 #visit-bg {
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  position: absolute;
 }
 
 #visit-bg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-/* Main section - opening hours */
-
 .visit-container-1 {
-    background-color: #f2f3f7;
-    height: 500px;
-    width: 100%;
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  background-color: #f2f3f7;
+  height: 500px;
+  width: 100%;
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .opening-hours-container {
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 table {
-    border: none;
-    font-size: 1.8rem;
-    margin-right: 45px;
-    text-align: left;
-    border-collapse: collapse;
+  border: none;
+  font-size: 1.8rem;
+  margin-right: 45px;
+  text-align: left;
+  border-collapse: collapse;
 }
 
 th {
-    border-bottom: 2.5px solid #707070;
+  border-bottom: 2.5px solid #707070;
 }
 
 td {
-    border-bottom: 1.5px solid #707070;
+  border-bottom: 1.5px solid #707070;
 }
 
 .table-right-padding-1 {
-    padding-right: 40px;
+  padding-right: 40px;
 }
 
 .table-left-padding-1 {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 .opening-hours-container-text {
-    margin-left: 45px;
+  margin-left: 45px;
 }
 
 #opening-hours-bolder {
-    font-weight: 450;
+  font-weight: 450;
 }
 
 #opening-hours-bolder-line {
-    font-weight: 450;
-    border-top: 2.5px solid #707070;
+  font-weight: 450;
+  border-top: 2.5px solid #707070;
 }
 
-/* Main section - prices */
-
 .visit-container-2 {
-    background-color: #f2f3f7;
-    height: 350px;
-    width: 100%;
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  background-color: #f2f3f7;
+  height: 350px;
+  width: 100%;
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .table-right-padding-2 {
-    padding-right: 40px;
-    border-right: 1.5px solid #707070;
+  padding-right: 40px;
+  border-right: 1.5px solid #707070;
 }
 
 .table-left-padding-2 {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
-/* Main section - find your way */
-
 .visit-container-3 {
-    background-color: #f2f3f7;
-    height: 400px;
-    width: 100%;
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
+  background-color: #f2f3f7;
+  height: 400px;
+  width: 100%;
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .find-your-way-container {
-    width: 50%;
-    padding: 0 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  padding: 0 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .find-your-way {
-    text-align: left;
+  text-align: left;
 }
 
 .find-your-way-bolder {
-    font-weight: 450;
+  font-weight: 450;
 }
 
 .text-divider {
-    margin: 25px 0;
-    text-align: left;
+  margin: 25px 0;
+  text-align: left;
 }
 
 #find-your-way-map {
-    display: flex;
-    justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-/* Main section - parking and accessibility */
-
 .visit-container-4 {
-    background-color: #f2f3f7;
-    height: 400px;
-    width: 100%;
-    margin: 20px 0;
-    display: flex;
+  background-color: #f2f3f7;
+  height: 400px;
+  width: 100%;
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .visit-parking-container {
-    width: 50%;
-    height: 100%;
-    padding: 0 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding: 0 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .visit-parking {
-    text-align: left;
+  text-align: left;
 }
 
 .visit-accessibility-container {
-    width: 50%;
-    height: 100%;
-    padding: 0 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding: 0 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .visit-accessibility {
-    text-align: left;
+  text-align: left;
 }
-
 
 #visit-bolder {
-    font-weight: 450;
+  font-weight: 450;
 }
 
-
-
-/* START OF FOOTER */
 #footer {
-    background-color: #DCE4F4;
-    color: #000000;
+  background-color: #dce4f4;
+  color: #000000;
 }
 
-section .container-fluid{
-    width: 85vw;
+#footer p {
+  color: #000000;
 }
 
-#footer p{
-    color: #000000;
+#footer a {
+  text-decoration: none;
+  color: #000000;
 }
 
-#footer a{
-    text-decoration: none;
-    color: #000000;
+section .container-fluid {
+  width: 85vw;
 }
-
-
 
 @media only screen and (max-width: 990px) {
-    body, html{
-        max-width: 100vw;
-        overflow-x: hidden;
-    }
-
-    header{
-        height: 80vh;
-    }
-
-    #visit-bg {
-        height: 80vh;
-    }
-
-    h1{
-        text-align: center;
-        font-size: 2.7rem;
-        margin-top: 3vh;
-    }
-
-    p{
-        font-size: 1rem;
-        font-weight: 450;
-    }
-
-    .visit-container-1 {
-        height: fit-content;
-        width: 100vw;
-        margin: 0;
-        margin-top: 3vh;
-    }
-    .opening-hours-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    table {
-        border: none;
-        font-size: 1rem;
-        margin-right: 0px;
-        width: 100%;
-    }
-    
-    .table-right-padding-1 {
-        padding-right: 0;
-    }
-    
-    .table-left-padding-1 {
-        padding-left: 0;
-    }
-
-
-    .opening-hours-container-text {
-        margin-left: 0px;
-        margin-top: 5vh;
-        justify-content: center;
-    }
-    
-    #opening-hours-bolder {
-        font-weight: 450;
-    }
-    
-    #opening-hours-bolder-line {
-        font-weight: 450;
-        border-top: 2.5px solid #707070;
-    }
-
-
-    .visit-container-2 {
-        height: fit-content;
-        width: 100vw;
-        margin: 0;
-        margin-top: 3vh;
-    }
-
-    .visit-container-3 {
-        height: fit-content;
-        width: 100vw;
-        margin: 0;
-        margin-top: 3vh;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .find-your-way-container {
-        width: 80vw;
-        padding: 0 ;
-
-    }
-    
-    .text-divider {
-        margin: 25px 0;
-        text-align: left;
-    }
-    
-    #find-your-way-map {
-        display: flex;
-        justify-content: center;
-        width: 90%!important;
-    }
-    #find-your-way-map iframe{
-        width: 100%;
-        height: 300px;
-    }
-
-    .visit-container-4 {
-        height: fit-content;
-        width: 100vw;
-        margin: 0;
-        margin-top: 3vh;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .visit-parking-container {
-        width: 80vw;
-        height: 100%;
-        padding: 0;
-    }
-
-    .visit-accessibility-container {
-        width: 80vw;
-        height: 100%;
-        padding: 0;
-    }
-
-    #footer .container-fluid{
-        margin-right: 15vw;
-    }
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  html {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  header {
+    height: 80vh;
+  }
+  #visit-bg {
+    height: 80vh;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 3vh;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 450;
+  }
+  .visit-container-1 {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100vw;
+    margin: 0;
+    margin-top: 3vh;
+  }
+  .opening-hours-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  table {
+    border: none;
+    font-size: 1rem;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .table-right-padding-1 {
+    padding-right: 0;
+  }
+  .table-left-padding-1 {
+    padding-left: 0;
+  }
+  .opening-hours-container-text {
+    margin-left: 0px;
+    margin-top: 5vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #opening-hours-bolder {
+    font-weight: 450;
+  }
+  #opening-hours-bolder-line {
+    font-weight: 450;
+    border-top: 2.5px solid #707070;
+  }
+  .visit-container-2 {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100vw;
+    margin: 0;
+    margin-top: 3vh;
+  }
+  .visit-container-3 {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100vw;
+    margin: 0;
+    margin-top: 3vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .find-your-way-container {
+    width: 80vw;
+    padding: 0;
+  }
+  .text-divider {
+    margin: 25px 0;
+    text-align: left;
+  }
+  #find-your-way-map {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 90% !important;
+  }
+  #find-your-way-map iframe {
+    width: 100%;
+    height: 300px;
+  }
+  .visit-container-4 {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100vw;
+    margin: 0;
+    margin-top: 3vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .visit-parking-container {
+    width: 80vw;
+    height: 100%;
+    padding: 0;
+  }
+  .visit-accessibility-container {
+    width: 80vw;
+    height: 100%;
+    padding: 0;
+  }
+  #footer .container-fluid {
+    margin-right: 15vw;
+  }
 }
+/*# sourceMappingURL=visit.css.map */

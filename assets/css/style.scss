@@ -1,0 +1,209 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"; 
+
+$gray: #707070;
+$brgound: #f2f3f7;
+$black: #000000;
+$white: #ffffff;
+$orange: #f79957;
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+body {
+	background-color: $brgound;
+	max-width: 100vw;
+	overflow-x: hidden;
+	color: $gray;
+}
+nav {
+	height: 80px;
+	background-color: transparent;
+	transition: 0.3s ease background-color;
+	.nav-brand-div {
+		height: 80px;
+		width: 120px;
+		margin-left: 5%;
+		.navbar-brand {
+			height: 80px;
+			width: 120px;
+			max-width: 120px;
+		}
+		#logo {
+			height: 80px;
+			svg {
+				&:hover {
+					.st0 {
+						stroke: $white;
+					}
+					.st1 {
+						fill: $white;
+					}
+				}
+			}
+		}
+	}
+	.navbar-nav {
+		margin-right: 5%;
+		text-transform: uppercase;
+		font-weight: 500;
+		gap: 15px;
+		li {
+			a {
+				color: $black;
+				text-decoration: none;
+				&:hover {
+					color: $white;
+				}
+			}
+			a.active {
+				color: $orange;
+				font-weight: 700;
+				&:hover {
+					color: $white;
+				}
+			}
+		}
+	}
+}
+header {
+	height: 100vh;
+	.hero-img-bg {
+		background-image: url("../img/trapholt-museum-desktop.png");
+		height: 100vh;
+		width: 100vw;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		position: absolute;
+	}
+}
+#footer {
+	height: 25vh;
+	width: 100vw;
+	color: $white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.footer-contact {
+		width: 100vw;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		.social {
+			ul {
+				li {
+					padding: 0 2rem;
+				}
+			}
+			.list-inline {
+				justify-content: center;
+				display: flex;
+				margin-left: -13vw;
+			}
+		}
+		.address {
+			text-align: right;
+			margin-left: -17vw;
+		}
+	}
+	p {
+		color: $white;
+	}
+	.social {
+		width: 100%;
+	}
+	.contact {
+		width: 100%;
+	}
+	.address {
+		width: 100%;
+	}
+	a {
+		text-decoration: none;
+		color: $white;
+		i {
+			&:hover {
+				color: $orange;
+			}
+		}
+	}
+	.social-item {
+		i {
+			font-size: 1.9rem;
+			padding: 0 0rem;
+		}
+	}
+}
+footer {
+	.footer-contact {
+		height: 20vh;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		.contact {
+			text-align: left;
+		}
+	}
+}
+@media only screen and (max-width: 990px) {
+	nav {
+		height: auto;
+		.nav-brand-div {
+			margin-left: 0%;
+		}
+		.navbar-nav {
+			align-items: center;
+		}
+	}
+	header {
+		.hero-img-bg {
+			background-image: url("../img/trapholt-museum.png");
+			width: 100%;
+			height: 100vh;
+		}
+	}
+	#footer {
+		height: 50vh;
+		display: flex;
+		flex-direction: row;
+		.footer-contact {
+			.contact {
+				order: 1;
+				justify-content: center;
+				text-align: center;
+				margin: 0;
+				padding: 0;
+				width: 90vw;
+			}
+			.flex-col {
+				.social {
+					display: none;
+				}
+			}
+			.address {
+				order: 2;
+				justify-content: center;
+				display: flex;
+				margin: 0;
+				text-align: center;
+			}
+			.social {
+				ul {
+					li {
+						padding: 0 1.5rem;
+					}
+				}
+			}
+		}
+		.social-item {
+			i {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
